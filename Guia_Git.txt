@@ -4,7 +4,7 @@
 git init
 
 +-------------------------------------------------------------------+
-| enviar arquivos para o git                                        |
+| Enviar arquivos para o git local                                  |
 +-------------------------------------------------------------------+
 git add "nome do arquivo"  ou git add . enviar todos os arquivos
 
@@ -18,4 +18,24 @@ git status
 +-------------------------------------------------------------------+
 git commit -m "Descrição da alteração"
 
++-------------------------------------------------------------------+
+| Configurar Credenciais go GitHub                                  |
++-------------------------------------------------------------------+
+git config --global user.email "email do perfil do github"
+git config --global user.name "nome do perfil do github"
+
++-------------------------------------------------------------------+
+| Referenciar repositório local com o repositório do github         |
++-------------------------------------------------------------------+
+git remote add origin urldorepositorio.git copiar o link direto do github
+
++-------------------------------------------------------------------+
+| Verificar quais são os repositórios remotos associados            |
++-------------------------------------------------------------------+
+git remote -v
+
++-------------------------------------------------------------------+
+| Enviar os arquivos para o repositório remoto                      |
++-------------------------------------------------------------------+
+git push origin master onde origin é repositório e a master é o nome da branch
 
