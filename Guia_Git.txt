@@ -49,3 +49,5 @@ git pull origin master
 | Clonando um repositório do github                                 |
 +-------------------------------------------------------------------+
 git clone urldorepositorio.git copiar o link direto do github
+
+
